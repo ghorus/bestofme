@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Best of Me",
+    "slug": "newapp10",
+    "description": "A pushup/situp workout tool.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/bomlogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/bomlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nvxx4.newapp10"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nvxx4.newapp10"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b5d23fe3-b929-4181-a5cb-3124d9eb8f29"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b5d23fe3-b929-4181-a5cb-3124d9eb8f29"
+    }
+  }
+}
